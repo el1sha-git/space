@@ -58,6 +58,7 @@ export default {
 
 .navbar__email_form{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 40px;
 
 }
@@ -67,11 +68,16 @@ export default {
 
 
 .navbar__input{
+    display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
     font-size: 1.1em;
     padding: 5px;
     border-radius: 0;
-    width: 360px;
+    max-width: 360px;
     height: 35px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .navbar__input::placeholder{
     font-weight: 300;
@@ -87,7 +93,6 @@ export default {
     background-color: $yellow;
     font-size: 1em;
     font-weight: 300;
-    margin-left: 20px;
 }
 .navbar__submit::selection{
     color: inherit;

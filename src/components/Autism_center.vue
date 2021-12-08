@@ -52,7 +52,13 @@
     width: 80%;
     font-size: 50px;
     font-weight: 600;
-    padding: 30px 0px; 
+    padding: 30px 0px;
+    word-break: normal;
+}
+@media screen and (max-width: 480px){
+    .autism__title{
+        font-size: 35px;
+    }
 }
 
 .autism__title_line{

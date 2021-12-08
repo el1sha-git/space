@@ -19,7 +19,7 @@
 }
 @media screen and (max-width: 480px) {
   .container{
-    width: 90%;
+    width: 95%;
   }
 }
 @media screen and (max-width: 900px) and (min-width: 480px) {
